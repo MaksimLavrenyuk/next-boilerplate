@@ -24,6 +24,17 @@ To create a new component in core, run:
 nx g @nx/next:component ${componentName} --project=core
 ```
 
+To run storybook in core, do the following:
+
+```
+nx run core:storybook
+```
+
+To generate stories automatically, run:
+```
+nx g @nx/react:stories
+```
+
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
