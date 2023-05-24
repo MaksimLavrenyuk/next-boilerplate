@@ -1,5 +1,7 @@
 import styles from './page.module.scss';
 import {isEven} from "@myorg/is-even";
+import { Button } from '@myorg/core';
+import { HelloServer } from '@myorg/core/server';
 
 export default async function Index() {
   /*
@@ -12,6 +14,8 @@ export default async function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
+            <HelloServer />
+            <Button />
             <h1>
               {String(isEven(2))}
               <span> Hello there, </span>

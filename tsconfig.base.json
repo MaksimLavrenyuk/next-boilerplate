@@ -15,6 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@myorg/core": ["packages/core/src/index.ts"],
+      "@myorg/core/server": ["packages/core/src/server.ts"],
       "@myorg/is-even": ["packages/is-even/src/index.ts"],
       "@myorg/is-odd": ["packages/is-odd/src/index.ts"]
     }

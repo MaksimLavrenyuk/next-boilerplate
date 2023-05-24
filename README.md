@@ -14,7 +14,15 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 
 To start the development, do the following:
 
-```npm run dev```
+```
+npm run dev
+```
+
+To create a new component in core, run:
+
+```
+nx g @nx/next:component ${componentName} --project=core
+```
 
 ## Further help
 
