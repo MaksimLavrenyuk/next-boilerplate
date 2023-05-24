@@ -21,7 +21,7 @@ npm run dev
 To create a new component in core, run:
 
 ```
-nx g @nx/next:component ${componentName} --project=core
+nx g @nx/next:component --project=core
 ```
 
 To run storybook in core, do the following:
